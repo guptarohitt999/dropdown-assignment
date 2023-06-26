@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Select DropDown</title>
+    <link rel="stylesheet" href="static/style1.css">
+</head>
+<body>
+    <div class="main-body">
+        <h1>Please select Country, State and City.</h1>
+    </div>
+    <div class="main">
+    <div class="container">
+    <label for="country">Country:</label>
+    <select class="select" id="countryDropdown" onchange="updateStates(this)">
+        <option value="">Select Country</option>
+    </select>
+    </div>
+    <div class="container">
+    <label for="state">State:</label>
+    <select class="select" id="stateDropdown" onchange="updateCities(this)">
+        <option value="">Select State</option>
+    </select>
+    </div>
+    <div class="container">
+    <label for="city">City:</label>
+    <select class="select" id="cityDropdown">
+        <option value="">Select City</option>
+    </select>
+    </div>
+
+    </div>
+
+
+    <script src="static/script.js"></script>
+</body>
+
+</html>

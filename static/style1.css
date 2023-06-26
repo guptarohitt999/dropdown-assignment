@@ -1,0 +1,31 @@
+ body {
+     background-color: #8AAAE5;
+ }
+
+ .main-body {
+     font-size: 1em;
+     font-style: italic;
+     margin: 40px auto;
+ }
+
+ .container {
+     display: inline;
+     font-size: 30px;
+     padding-right: 20px;
+     color: rgb(255, 255, 255);
+
+ }
+
+ .main {
+     position: relative;
+     text-align: center;
+     top: 20vh;
+ }
+
+ .select {
+     font-size: 16px;
+     padding: 5px;
+     border-radius: 5px;
+     box-shadow: 2.5px 2.5px 2.5px red;
+     ;
+ }
